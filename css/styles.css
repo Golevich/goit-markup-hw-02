@@ -1,0 +1,215 @@
+/*========== Компоненты ==========*/
+
+/* Политра сайта */
+/* h1 #FFFFFF */
+/* h2, h3 #212121 */
+/* p #757575 */
+/* Акцент #2196F3 */
+/* Кнопка фон #188CE8 */
+
+:root{
+    --praimari-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-text-color: #2196F3;
+}
+
+/*========== /Компоненты ==========*/
+
+
+/*========== Логотип ==========*/
+
+.logo{
+    font-family: 'Raleway',
+    sans-serif;
+    font-size: 26px;
+    line-height: 1.19px;
+}
+.logo {
+    color: var(--accent-text-color);
+}
+
+.studio {
+    color: var(--praimari-text-color);
+}
+
+.studio:focus,
+.studio:hover {
+    color: var(--accent-text-color);
+}
+
+.logo:focus,
+.logo:hover {
+    color: #000000;
+}
+/*========== /Логотип ==========*/
+
+
+/*========== WebStudio ==========*/
+
+/*========== Header ==========*/
+.body-portfolio,
+.body-studio {
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+/*========== Ссылки ==========*/
+
+.header-link-studio,
+.footer-link-studio {
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--praimari-text-color);    
+}
+
+.header-link-studio:focus,
+.header-link-studio:hover {
+    color: #2196F3;
+}
+
+.footer-link-studio:focus,
+.footer-link-studio:hover {
+    color: #2196F3;
+}
+.header-link-phone,
+.header-link-mail{
+    color: var(--secondary-text-color);
+}
+
+.header-link-mail:focus,
+.header-link-mail:hover {
+    color: #757575;
+    color: #2196F3;
+}
+
+.footer-list-studio,
+.team-studio,
+.work-studio,
+.description-studio,
+.mail-phone-list,
+.header-list-studio {
+    list-style: none;
+}
+
+/*========== Кнопка ==========*/
+.button-studio {
+    background-color: #188CE8;
+    color: #FFFFFF;
+    border-style: none;
+    border-radius: 4%;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.button-studio:hover,
+.button-studio:focus {
+    background-color: #2196F3;
+}
+
+/* ========== Hero =========== */
+
+.hero-title-studio {
+    font-style: var(--praimari-text-color);
+    font-size: 44px;
+    line-height: 1.36;
+    /* color:#FFFFFF; */
+}
+
+.secondary-title {
+    font-size: 36px;
+    line-height: 1.16;
+    color: var(--praimari-text-color);
+}
+
+/* ========== Description ========= */
+
+.description-title {
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--praimari-text-color);
+}
+
+.description-text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+}
+
+/*============ Team ===========*/
+
+.team-title-studio {
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--praimari-text-color);
+}
+
+.team-text-studio {
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--secondary-text-color);
+}
+
+/*========== /WebStudio ==========*/
+
+/*========== Portfolio ==========*/
+
+/*=========== Ссылка ==========*/
+
+.header-link-portfolio,
+.footer-link-portfolio {
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--praimari-text-color);
+}
+
+.header-link-portfolio:focus,
+.header-link-portfolio:hover {
+    color: #2196F3;
+}
+
+.footer-link-portfolio:focus,
+.footer-link-portfolio:hover {
+    color: #2196F3;
+}
+
+
+/*========== Кнопка ==========*/
+.button-portfolio {
+    background-color: #188CE8;
+    color: #FFFFFF;
+    border-style: none;
+    border-radius: 4%;
+    cursor: pointer;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+    background-color: #2196F3;
+}
+
+
+.buttons,
+.portfolio,
+.footer-list-portfolio,
+.header-list-portfolio,
+.mail-phone-portfolio {
+    list-style: none;
+}
+
+.portfolio-title {
+    font-size: 18px;
+    line-height: 2;
+    color: var(--praimari-text-color);
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--secondary-text-color);
+}
+
+/*========== /Portfolio ==========*/

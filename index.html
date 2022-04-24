@@ -5,56 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Golevich</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
-    <header id="logo">
-      <nav>
-        <a href="">WebStudio</a>
-        <ul>
-          <li><a href="#abaut">Студия</a></li>
-          <li><a href="#our_team">Портфолио</a></li>
-          <li><a href="#contacts">Контакты</a></li>
+  <body class="body-studio">
+    <header class="header-studio" id="logo">
+      <nav class="novigation-studio">
+        <a href="" class="logo">Web<span class="studio">Studio</span></a>
+        <ul class="header-list-studio">
+          <li><a class="header-link-studio" href="#abaut">Студия</a></li>
+          <li><a class="header-link-studio" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="header-link-studio" href="#contacts">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="maito:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380991111111">+380991111111</a></li>
+      <ul class="mail-phone-list">
+        <li>
+          <a class="header-link-mail" href="maito:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li><a class="header-link-phone" href="tel:+380991111111">+380991111111</a></li>
       </ul>
     </header>
     <main>
       <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+        <h1 class="hero-title-studio">Эффективные решения для вашего бизнеса</h1>
+        <button class="button-studio" type="button">Заказать услугу</button>
       </section>
       <section id="abaut">
-        <h2>Наши преимущества</h2>
-        <ul>
-          <li>
-            <h3>Внимание к деталям</h3>
-            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+        <h2 class="secondary-title">Наши преимущества</h2>
+        <ul class="description-studio">
+          <li class="description-list-studio">
+            <h3 class="description-title">Внимание к деталям</h3>
+            <p class="description-text">
+              Идейные соображения, а также начало повседневной работы по формированию позиции.
+            </p>
           </li>
-          <li>
-            <h3>Пунктуальность</h3>
-            <p>
+          <li class="description-list-studio">
+            <h3 class="description-title">Пунктуальность</h3>
+            <p class="description-text">
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
-          <li>
-            <h3>Планирование</h3>
-            <p>
+          <li class="description-list-studio">
+            <h3 class="description-title">Планирование</h3>
+            <p class="description-text">
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
-          <li>
-            <h3>Современные технологии</h3>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+          <li class="description-list-studio">
+            <h3 class="description-title">Современные технологии</h3>
+            <p class="description-text">
+              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+            </p>
           </li>
         </ul>
       </section>
       <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
-          <li>
+        <h2 class="secondary-title">Чем мы занимаемся</h2>
+        <ul class="work-studio">
+          <li class="work-list-studio">
             <img
               src="./images/what_are_we_doing/hands_on_keyboard.jpg"
               alt="руки на клавиатуре"
@@ -62,7 +75,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="work-list-studio">
             <img
               src="./images/what_are_we_doing/phone_in_hand.jpg"
               alt="телефон в руке"
@@ -70,7 +83,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="work-list-studio">
             <img
               src="./images/what_are_we_doing/tablet_in_hand.jpg"
               alt="планшет в руке"
@@ -80,43 +93,44 @@
           </li>
         </ul>
       </section>
-      <section id="our_team">
-        <h2>Наша команда</h2>
-        <ul>
-          <li>
+      <section>
+        <h2 class="secondary-title">Наша команда</h2>
+        <ul class="team-studio">
+          <li class="team-list-studio">
             <img src="./images/our_team/igor.jpg" alt="Игорь Демьяненко" width="270" height="260" />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="team-title-studio">Игорь Демьяненко</h3>
+            <p class="team-text-studio">Product Designer</p>
           </li>
-          <li>
+          <li class="team-list-studio">
             <img src="./images/our_team/olga.jpg" alt="Ольга Репина" width="270" height="260" />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-title-studio">Ольга Репина</h3>
+            <p class="team-text-studio">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-list-studio">
             <img
               src="./images/our_team/nikolay.jpg"
               alt="Николай Тарасов"
               width="270"
               height="260"
             />
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="team-title-studio">Николай Тарасов</h3>
+            <p class="team-text-studio">Marketing</p>
           </li>
-          <li>
+          <li class="team-list-studio">
             <img src="./images/our_team/mihail.jpg" alt="Михаил Ермаков" width="270" height="260" />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="team-title-studio">Михаил Ермаков</h3>
+            <p class="team-text-studio">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="#logo">WebStudio</a>
+    <footer class="footer-studio">
+      <a href="#logo" class="logo">Web<span class="studio">Studio</span></a>
       <address id="contacts">
-        <ul>
+        <ul class="footer-list-studio">
           <li>
             <a
+              class="footer-link-studio"
               href="https://goo.gl/maps/FdQiZP6HJs8LCPpz8"
               target="_blank"
               rel="noopener noreferrer"
@@ -124,10 +138,10 @@
             </a>
           </li>
           <li>
-            <a href="tel:+380991111111">+380991111111</a>
+            <a class="footer-link-studio" href="tel:+380991111111">+380991111111</a>
           </li>
           <li>
-            <a href="mailto:info@example.com">info@example.com</a>
+            <a class="footer-link-studio" href="mailto:info@example.com">info@example.com</a>
           </li>
         </ul>
       </address>

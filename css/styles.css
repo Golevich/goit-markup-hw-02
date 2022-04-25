@@ -23,9 +23,11 @@
 .logo{
     font-family: 'Raleway',
     sans-serif;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19px;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 .logo {
     color: var(--accent-text-color);
@@ -44,6 +46,71 @@
 .logo:hover {
     color: #000000;
 }
+
+.logo-studio:focus,
+.logo-studio:hover {
+    color: #FFFFFF;
+}
+
+.footer-logo-studio:focus,
+.footer-logo-studio:hover {
+    color: var(--accent-text-color);
+}
+
+.logo-studio {
+    color: var(--accent-text-color);
+    font-family: 'Raleway',
+    sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+
+}
+.footer-logo-studio {
+    font-family: 'Raleway',
+    sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.logo-portfolio {
+    font-family: 'Raleway',
+    sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: var(--accent-text-color);
+}
+
+.footer-logo-portfolio {
+    font-family: 'Raleway',
+    sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.logo-portfolio:focus,
+.logo-portfolio:hover {
+    color: #FFFFFF;
+}
+
+.footer-logo-portfolio:focus,
+.footer-logo-portfolio:hover {
+    color: var(--accent-text-color);
+}
+
 /*========== /Логотип ==========*/
 
 
@@ -71,7 +138,7 @@
 .footer-link-studio {
     font-size: 14px;
     line-height: 1.71;
-    color: var(--praimari-text-color);
+    color: #FFFFFF;
     text-decoration: none;
     font-style:normal;
     font-weight: 400;
@@ -136,17 +203,24 @@
 
 /* ========== Hero =========== */
 
+.hero {
+    background-color: #2F303A;
+}
+
 .hero-title-studio {
-    font-style: var(--praimari-text-color);
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    /* color:#FFFFFF; */
+    color: #FFFFFF;
+    letter-spacing: 0.06em;
 }
 
 .secondary-title {
     font-size: 36px;
+    font-weight: 700;
     line-height: 1.16;
     color: var(--praimari-text-color);
+    letter-spacing: 0.03em;
 }
 .description-title,
 .hero-title-studio {
@@ -157,28 +231,40 @@
 
 .description-title {
     font-size: 14px;
+    font-weight: 700;
     line-height: 1.14;
     color: var(--praimari-text-color);
+    letter-spacing: 0.03em;
 }
 
 .description-text {
     font-size: 14px;
+    font-weight: 400;
     line-height: 1.71;
     color: var(--secondary-text-color);
+    letter-spacing: 0.03em;
 }
 
 /*============ Team ===========*/
 
 .team-title-studio {
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.18;
     color: var(--praimari-text-color);
+    letter-spacing: 0.03em;
 }
 
 .team-text-studio {
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.18;
     color: var(--secondary-text-color);
+    letter-spacing: 0.03em;
+}
+
+.footer-studio {
+    background-color: #2F303A;
 }
 
 /*========== /WebStudio ==========*/
@@ -189,18 +275,21 @@
 
 .header-link-portfolio {
     font-size: 14px;
+    font-weight: 500;
     line-height: 1.14;
     color: var(--praimari-text-color);
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 
 .footer-link-portfolio {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    color: var(--praimari-text-color);
+    color: #FFFFFF;
     text-decoration: none;
     font-style:normal;
+    letter-spacing: 0.03em;
 }
 
 .header-link-portfolio:focus,
@@ -244,14 +333,24 @@
 
 .portfolio-title {
     font-size: 18px;
+    font-weight: 700;
     line-height: 2;
     color: var(--praimari-text-color);
+    letter-spacing: 0.06em;
 }
 
 .portfolio-text {
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.87;
     color: var(--secondary-text-color);
+    letter-spacing: 0.03em;
 }
+
+.footer-portfolio {
+    background-color: #2F303A;
+}
+
+
 
 /*========== /Portfolio ==========*/

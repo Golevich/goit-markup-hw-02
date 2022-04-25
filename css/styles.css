@@ -208,9 +208,10 @@
     text-decoration: none;
 }
 
-.current:current {
+.current {
     color: #2196F3;
 }
+
 
 /*========== Кнопка ==========*/
 .button-studio {

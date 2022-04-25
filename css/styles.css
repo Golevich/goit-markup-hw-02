@@ -14,7 +14,6 @@
 }
 
 
-
 /*========== /Компоненты ==========*/
 
 
@@ -147,22 +146,51 @@
 
 .header-link-studio:focus,
 .header-link-studio:hover {
-    color: #2196F3;
+    color: var(--accent-text-color);
 }
 
 .footer-link-studio:focus,
 .footer-link-studio:hover {
-    color: #2196F3;
+    color: var(--accent-text-color);
+}
+
+.footer-tel-studio:focus,
+.footer-tel-studio:hover {
+    color: var(--accent-text-color);
+}
+
+.footer-mail-studio:focus,
+.footer-mail-studio:hover {
+    color: var(--accent-text-color);
+}
+
+.footer-mail-studio,
+.footer-tel-studio {
+    font-size: 14px;
+    line-height: 1.71;
+    color:rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style:normal;
+    font-weight: 400;
+    letter-spacing: 0.03em;
 }
 
 .header-link-phone,
-.header-link-mail{
+.header-link-mail {
     color: var(--secondary-text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .header-link-mail:focus,
 .header-link-mail:hover {
-    color: #757575;
+    color: #2196F3;
+}
+
+.header-link-phone:focus,
+.header-link-phone:hover {
     color: #2196F3;
 }
 
@@ -178,6 +206,10 @@
 .header-link-mail,
 .header-link-phone {
     text-decoration: none;
+}
+
+.current:current {
+    color: #2196F3;
 }
 
 /*========== Кнопка ==========*/
@@ -262,6 +294,9 @@
     color: var(--secondary-text-color);
     letter-spacing: 0.03em;
 }
+.our-team {
+    background-color: #F5F4FA;
+}
 
 .footer-studio {
     background-color: #2F303A;
@@ -302,11 +337,30 @@
     color: #2196F3;
 }
 
+.footer-tel-portfolio:focus,
+.footer-tel-portfolio:hover {
+    color: var(--accent-text-color);
+}
+
+.footer-mail-portfolio:focus,
+.footer-mail-portfolio:hover {
+    color: var(--accent-text-color);
+}
+
+.footer-mail-portfolio,
+.footer-tel-portfolio {
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
 
 /*========== Кнопка ==========*/
 .button-portfolio {
-    background-color: #188CE8;
-    color: #FFFFFF;
+    color: #212121;
     border-style: none;
     border-radius: 4%;
     cursor: pointer;
@@ -319,6 +373,7 @@
 
 .button-portfolio:hover,
 .button-portfolio:focus {
+    color: #FFFFFF;
     background-color: #2196F3;
 }
 

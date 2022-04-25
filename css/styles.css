@@ -208,10 +208,6 @@
     text-decoration: none;
 }
 
-.current {
-    color: #2196F3;
-}
-
 
 /*========== Кнопка ==========*/
 .button-studio {
@@ -359,6 +355,10 @@
     letter-spacing: 0.03em;
 }
 
+.current {
+    color: #2196F3;
+}
+
 /*========== Кнопка ==========*/
 .button-portfolio {
     color: #212121;
@@ -400,13 +400,15 @@
     font-weight: 400;
     line-height: 1.87;
     color: var(--secondary-text-color);
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;    
 }
 
 .footer-portfolio {
     background-color: #2F303A;
 }
-
+.potfolio-img {
+    text-decoration: none;
+}
 
 
 /*========== /Portfolio ==========*/
